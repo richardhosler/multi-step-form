@@ -25,7 +25,7 @@
 		font-weight: 500;
 		padding: 0.8rem;
 		border-radius: 0.4rem;
-		color: var(--cool-gray);
+		color: var(--cool-grey);
 	}
 	.active {
 		color: var(--marine-blue);

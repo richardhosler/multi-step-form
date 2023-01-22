@@ -44,6 +44,7 @@
 				setAddon(i);
 			});
 		}
+		isSetup = true;
 		console.log('setup complete');
 	};
 </script>
@@ -201,7 +202,7 @@
 		text-align: center;
 	}
 	.info {
-		color: var(--cool-gray);
+		color: var(--cool-grey);
 	}
 	.total {
 		display: grid;
@@ -217,7 +218,7 @@
 	}
 	hr {
 		border: none;
-		border-bottom: 1px solid var(--light-gray);
+		border-bottom: 1px solid var(--light-grey);
 		width: 100%;
 		grid-column: span 2;
 	}
@@ -232,7 +233,7 @@
 	}
 	.bill > .item {
 		font-size: 0.9rem;
-		color: var(--cool-gray);
+		color: var(--cool-grey);
 	}
 	.bill > .price {
 		font-size: 0.9rem;
@@ -251,7 +252,7 @@
 	}
 	.bill > .plan > .info {
 		font-size: 0.9rem;
-		color: var(--cool-gray);
+		color: var(--cool-grey);
 		grid-column: 1;
 	}
 	.bill > .plan > .price {
@@ -297,13 +298,13 @@
 		left: -0.75rem;
 		width: 1.2rem;
 		height: 1.2rem;
-		border: solid 1px var(--light-gray);
+		border: solid 1px var(--light-grey);
 		border-radius: 0.3rem;
 		transition: all 200ms ease, visibility 0ms;
 	}
 	.option > input:checked::before {
 		background-color: var(--purplish-blue);
-		border: inset 1px var(--light-gray);
+		border: inset 1px var(--light-grey);
 		display: block;
 		color: var(--alabaster);
 		font-size: 1.4rem;
@@ -313,7 +314,7 @@
 	}
 	.option {
 		padding: 0.9rem;
-		border: solid var(--light-gray) 1px;
+		border: solid var(--light-grey) 1px;
 	}
 	.option > .offer {
 		font-size: 0.75rem;
@@ -330,7 +331,7 @@
 		border: solid var(--light-blue) 1px;
 	}
 	a {
-		color: var(--cool-gray);
+		color: var(--cool-grey);
 	}
 	h2 {
 		margin: 0;
@@ -344,12 +345,12 @@
 		font-weight: 500;
 		color: var(--marine-blue);
 		border-radius: 0.2rem;
-		border: 1px solid var(--light-gray);
+		border: 1px solid var(--light-grey);
 		width: 95%;
 		font-size: 0.9rem;
 	}
 	input::placeholder {
-		color: var(--cool-gray);
+		color: var(--cool-grey);
 		opacity: 1;
 	}
 	input[type='text']:focus {
@@ -405,7 +406,7 @@
 		}
 		.option > img ~ .price {
 			font-size: 0.86rem;
-			color: var(--cool-gray);
+			color: var(--cool-grey);
 			grid-column: 2;
 			grid-row: 2;
 		}
@@ -480,7 +481,7 @@
 		}
 		button {
 			padding: 0.6rem;
-			color: var(--cool-gray);
+			color: var(--cool-grey);
 			font-weight: 500;
 			font-size: 0.8rem;
 			border-style: hidden;
@@ -564,7 +565,7 @@
 			height: 80%;
 		}
 		.panel > .info {
-			color: var(--cool-gray);
+			color: var(--cool-grey);
 			margin-bottom: 1rem;
 		}
 		.option-group {
@@ -611,7 +612,7 @@
 		}
 		.option > img ~ .price {
 			font-size: 0.86rem;
-			color: var(--cool-gray);
+			color: var(--cool-grey);
 		}
 		.option {
 			border-radius: 0.5rem;
